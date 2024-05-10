@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - half_baked_data
+      - 'half_baked_data'
   pull_request:
     branches:
       - '*'
@@ -32,7 +32,7 @@ jobs:
 
   deploy:
     needs: build
-    if: github.ref == 'refs/heads/half_baked_data'
+    if: github.ref == 'refs/heads/main'
     permissions:
       pages: write
       id-token: write
