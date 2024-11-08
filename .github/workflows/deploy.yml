@@ -17,7 +17,7 @@ jobs:
         with:
           lfs: true
       - name: list stuff
-        run: ls -lha content
+        run: ls -lha content/projects/roadent_kill
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
