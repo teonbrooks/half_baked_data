@@ -16,6 +16,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           lfs: true
+      - name: pull stuff
+        run: git lfs fetch
       - name: list stuff
         run: ls -lha content/projects/roadent_kill
       - name: Setup Python
