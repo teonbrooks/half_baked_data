@@ -43,6 +43,3 @@ ipyleaflet
 plotly>=6,<7
 bqplot
 
-# Road(ent) Kill
-ipyleaflet
-leafmap
